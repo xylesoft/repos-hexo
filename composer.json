@@ -1,0 +1,22 @@
+{
+    "name": "xylespft/repos-hexo",
+    "description": "An example of implementing an archiecture of Repository and Hexoangal.",
+    "authors": [
+        {
+            "name": "Jeramy Wenserit",
+            "email": "jeramy@xylesoft.co.uk"
+        }
+    ],
+    "require": {
+       "slim/slim": "2.4.*",
+       "doctrine/dbal": "2.1.*",
+       "twig/twig": "1.15.*",
+       "pimple/pimple": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Controllers":        "app/",
+            "Xylesoft":           "src/"
+        }
+    }
+}
